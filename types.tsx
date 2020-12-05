@@ -1,15 +1,23 @@
+import { Album } from "./models/album";
+
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
+  Browse: undefined;
   TabTwo: undefined;
 };
 
 export type TabOneParamList = {
-  TabOneScreen: undefined;
+  Browse: undefined;
+  AlbumReview: {
+    album: Album;
+  };
+  AlbumSongs: {
+    album: Album;
+  };
 };
 
 export type TabTwoParamList = {
