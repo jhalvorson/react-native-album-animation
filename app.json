@@ -3,7 +3,7 @@
     "experiments": {
       "turboModules": true
     },
-    "name": "faces",
+    "name": "Reanimated Test: Faces",
     "slug": "faces",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,7 +18,9 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -30,6 +32,8 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
-    }
+    },
+    "description": "Based on https://dribbble.com/shots/11502498-Magic-Motion-in-Framer?utm_source=Clipboard_Shot&utm_campaign=michalczyk&utm_content=Magic%20Motion%20in%20Framer&utm_medium=Social_Share",
+    "githubUrl": "https://github.com/jhalvorson/react-native-album-animation"
   }
 }
